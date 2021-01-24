@@ -3,7 +3,7 @@ crumb :root do
 end
 
 crumb :tweets do 
-  link "ツイート一覧", tweet_index_path 
+  link "ツイート一覧", tweets_index_path 
   parent :root
 end 
 
